@@ -10,7 +10,7 @@ module.exports = {
     main: "./js/index.js",
     hello: "./js/hello.js",
   },
-  outpiut: {
+  output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "dist"),
   },
